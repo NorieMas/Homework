@@ -2,13 +2,11 @@
  *  homework1/src/main.cpp
  *  ---------------------------------------------------------
  *  Problem 1 : Ackermann Function
- *      - AckermannRec  ──► Recursive  version
- *      - AckermannIter ──► Iterative version (non-recursive, using a fixed-size array as stack)
+ *      - AckermannRec  ──► Recursive version
+ *      - AckermannIter ──► Iterative version
  *
  *  Problem 2 : Power-Set
  *      - PowerSet      ──► List every subset of a set S
- *
- *  NOTE : 本檔只使用 <iostream> 其餘容器一律以原生陣列實作。
  ************************************************************/
 
 #include <iostream>
