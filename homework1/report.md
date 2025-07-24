@@ -4,13 +4,13 @@
 
 ## 解題說明
 
-本次作業共 2 題，皆以 **遞迴 (recursive)** 為核心。
+本次作業共 2 題，皆以 **遞迴 (Recursive)** 為核心。
 
-**題目一 Ackermann 函式**
+**題目一：Ackermann**
 - `AckermannRec(m,n)`：依數學定義直接遞迴
 - `AckermannIter(m,n)`：以「固定大小陣列」手動模擬呼叫堆疊（非遞迴）
 
-**題目二 Power Set (冪集)**
+**題目二：Power Set**
 - 對集合 `S`（大小為 `n`）列舉所有 `2^n` 個子集合
 - 使用遞迴 DFS：每個元素「選／不選」兩條分支
 
