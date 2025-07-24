@@ -20,10 +20,9 @@ using std::endl;
 /* ---------- Recursive version ---------- */
 unsigned long long AckermannRec(unsigned int m, unsigned int n)
 {
-    if (m == 0)          return n + 1;
-    else if (n == 0)     return AckermannRec(m - 1, 1);
-    else                 return AckermannRec(m - 1,
-                                 AckermannRec(m, n - 1));
+    if (m == 0) return n + 1;
+    else if (n == 0) return AckermannRec(m - 1, 1);
+    else return AckermannRec(m - 1, AckermannRec(m, n - 1));
 }
 
 /* ---------- Iterative version (non-recursive) ---------- */
