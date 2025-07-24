@@ -7,7 +7,7 @@
 本次作業共 2 題，皆以 **遞迴 (recursive)** 為核心。
 
 1. **題目一 Ackermann 函式**  
-   * `AckermannRec(m,n)`：依數學定義直接遞迴  
+   - `AckermannRec(m,n)`：依數學定義直接遞迴  
    - `AckermannIter(m,n)`：以「固定大小陣列」手動模擬呼叫堆疊（非遞迴）
 
 2. **題目二 Power Set (冪集)**  
