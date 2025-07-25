@@ -63,7 +63,6 @@ void PowerSet(const char *set, int n); // 直接把所有子集合輸出到螢�
  ************************************************************/
 
 #include <iostream>
-#include <climits>
 #include "header.h"
 
 using std::cout;

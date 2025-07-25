@@ -10,7 +10,6 @@
  ************************************************************/
 
 #include <iostream>
-#include <climits>
 #include "header.h"
 
 using std::cout;
