@@ -4,17 +4,27 @@
 
 ## 解題說明
 
-本次作業共 2 題，
+本次作業共 2 題，皆以 **多項式抽象資料型別 (Polynomial ADT)** 為核心。
 
-**題目一：**
+**題目一：Polynomial**
+- `class Polynomial` 依照 `Figure 1` 、 `Figure 2` 提供的介面與私有成員完成實作。
+    - `Polynomial()`：建構 0 多項式。
+    - `Add(poly)`：兩條「指數遞減」序列做 `merge` 加法。
+    - `Mult(poly)`：雙迴圈相乘，係數累加於暫存桶，再遞減輸出。
+    - `Eval(x)`：計算 Σ coef × x^exp
+- 私有結構 `Term{float coef; int exp;}` 只存 **非零項** 節省稀疏多項式空間。
+- 動態陣列 `termArray` 加 `capacity / terms` 管理記憶體
 
-**題目二：**
+**題目二：Polynomial I/O**
+- 過載運算子 `>>` 、 `<<` 以支援直覺的輸入 / 輸出。
+    - `operator>>`：讀入「項數 k + k 組 <coef exp>」並呼叫 `attach()` 整理
+    - `operator<<`：輸出 `3x^2 + 2x - 4` 形式（首項符號、省略 ±1、處理 exp=0/1）
 
 ### 解題策略
 
-**題目一：**
+**題目一：Polynomial**
 
-**題目二：**
+**題目二：Polynomial I/O**
 
 ## 程式實作
 
