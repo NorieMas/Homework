@@ -59,6 +59,8 @@
   "files.associations": {
     "ostream": "cpp",
     "new": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "iosfwd": "cpp",
+    "text_encoding": "cpp"
   }
 }
